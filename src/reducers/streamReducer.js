@@ -5,7 +5,7 @@ import {
     FETCH_STREAM,
     DELETE_STREAM,
     EDIT_STREAM 
-} from "./types"
+} from "../actions/types"
 
 const INITIAL_STATE = {};
 
