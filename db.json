@@ -12,9 +12,20 @@
     },
     {
       "title": "My stream",
-      "description": "it was created by me!",
-      "userId": "102364289585064366699",
+      "description": "it was EDITED by me!",
       "id": 3
+    },
+    {
+      "title": "Programatic Navigation",
+      "description": "this was EDIT using a PATCH method",
+      "userId": "102364289585064366699",
+      "id": 4
+    },
+    {
+      "title": "Streaming component reuse",
+      "description": "refactor component",
+      "userId": "102364289585064366699",
+      "id": 5
     }
   ]
 }
