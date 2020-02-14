@@ -2,7 +2,6 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { fetchStreams } from '../../actions';
-import history from '../../history';
 
 class StreamList extends React.Component {
     componentDidMount() {
@@ -16,9 +15,9 @@ class StreamList extends React.Component {
                     <Link to={`/streams/edit/${stream.id}`} className='ui button primary'>
                         Edit
                     </Link>
-                    <button className='ui button negative'>
+                    <Link to={`/streams/delete/${stream.id}`} className='ui button negative'>
                         Delete
-                    </button>
+                    </Link>
                 </div>   
             );
         }
